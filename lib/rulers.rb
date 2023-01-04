@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
-require_relative 'rulers/version'
+require 'rulers/version'
 require 'rulers/routing'
+require 'rulers/util'
+require 'rulers/dependencies'
 
 module Rulers
   class Application
